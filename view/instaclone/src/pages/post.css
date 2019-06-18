@@ -1,0 +1,47 @@
+
+.Post{
+    background-color: #fff;
+    border: 1px solid #DDD;
+    margin-top: 30px;
+}
+
+.Post .Post-header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Post .Post-header .Post-header-userinfo {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.Post .Post-header .Post-header-userinfo .Post-header-userinfo-place {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.Post .Post-image{
+    width: 100%;
+}
+
+.Post .Post-footer {
+    padding: 20px;
+}
+
+.Post .Post-footer .actions{
+    margin-bottom: 10px
+}
+
+.Post .Post-footer p{
+   font-size: 1.1rem;
+   line-height: 18px;
+   margin-top: 2px;
+}
+
+.Post .Post-footer span{
+  color: darkorchid;
+  display: block;
+ }

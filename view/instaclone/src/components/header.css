@@ -1,0 +1,15 @@
+.Header {
+    background: #fff;
+    height: 70px;
+    border-bottom: 1px solid #ddd
+}
+.Header .Header-content { 
+    width: inherit;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: space-between;
+}

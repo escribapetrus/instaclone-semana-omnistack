@@ -1,0 +1,57 @@
+.New {
+    width: 100%;
+    max-width: 580px;
+    margin: 30px auto 0;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  .New h1{
+      text-align: center;
+  }
+  
+  .New form{
+    margin: 0;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .New div{
+      width: inherit;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .New input {
+    display: block;
+    margin: 5px;
+  }
+  .New  label{
+      font-weight: bold;
+      display: block;
+      margin: 5px;
+  }
+  
+  .New input[type=text] {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 1.3rem;
+    height: 1.5rem;
+    width:80%;
+    padding: 8px;
+  }
+  
+  .New button {
+    margin-top: 20px;
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 0;
+    background: darkorchid;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
